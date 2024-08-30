@@ -13,18 +13,18 @@ const selectElement = document.getElementById("selectSearch");
 // Initialize variables
 let addedItem = JSON.parse(localStorage.getItem("ProductsInCart")) || [];
 const products = [
-    { id: 1, title: "bentley continental supersports 2012", imageUrl: "images/bentley continental supersports 2012.jpg", category: "Car", price: 80000, favorit: false },
-    { id: 2, title: "volkswagen tiguan 2020", imageUrl: "images/volkswagentiguan2020.jpg", category: "Car", price: 26000, favorit: false },
-    { id: 3, title: "mitsubishi eclipse 2024", imageUrl: "images/mitsubishieclipse2024.jpg", category: "Car", price: 36000, favorit: false },
-    { id: 4, title: "renault kadjar 2019", imageUrl: "images//Ali.jpg", category: "Car", price: 24000, favorit: false },
-    { id: 5, title: "A 180", imageUrl: "images//img1.jpg", category: "Car", price: 28000, favorit: false },
-    { id: 6, title: "CLS 180", imageUrl: "images/img2.jpg", category: "Car", price: 12000, favorit: false },
-    { id: 7, title: "B class", imageUrl: "images//img3.jpg", category: "Car", price: 14000, favorit: false },
-    { id: 8, title: "E Class", imageUrl: "images/img4.jpg", category: "Car", price: 23000, favorit: false },
-    { id: 9, title: "kia soul 2014", imageUrl: "images//abdlahmid.jpg", category: "Car", price: 15000, favorit: false },
-    { id: 10, title: "mercedes benz slr mclaren", imageUrl: "images//mercedes benz slr mclaren.jpg", category: "Car", price: 500000, favorit: false },
-    { id: 11, title: "bugatti veyron super sports Mansory Edition", imageUrl: "images//bugatti veyron super sports Mansory Edition.png", category: "Car", price: 900000, favorit: false },
-    { id: 12, title: "10 Car Garage", imageUrl: "images//garage.webp", category: "Bulid", price: 75000, favorit: false }
+    { id: 1, title: "bentley continental supersports 2012", imageUrl: "Images/bentley continental supersports 2012.jpg", category: "Car", price: 80000, favorit: false },
+    { id: 2, title: "volkswagen tiguan 2020", imageUrl: "Images/volkswagentiguan2020.jpg", category: "Car", price: 26000, favorit: false },
+    { id: 3, title: "mitsubishi eclipse 2024", imageUrl: "Images/mitsubishieclipse2024.jpg", category: "Car", price: 36000, favorit: false },
+    { id: 4, title: "renault kadjar 2019", imageUrl: "Images//Ali.jpg", category: "Car", price: 24000, favorit: false },
+    { id: 5, title: "A 180", imageUrl: "Images//img1.jpg", category: "Car", price: 28000, favorit: false },
+    { id: 6, title: "CLS 180", imageUrl: "Images/img2.jpg", category: "Car", price: 12000, favorit: false },
+    { id: 7, title: "B class", imageUrl: "Images//img3.jpg", category: "Car", price: 14000, favorit: false },
+    { id: 8, title: "E Class", imageUrl: "Images/img4.jpg", category: "Car", price: 23000, favorit: false },
+    { id: 9, title: "kia soul 2014", imageUrl: "Images//abdlahmid.jpg", category: "Car", price: 15000, favorit: false },
+    { id: 10, title: "mercedes benz slr mclaren", imageUrl: "Images//mercedes benz slr mclaren.jpg", category: "Car", price: 500000, favorit: false },
+    { id: 11, title: "bugatti veyron super sports Mansory Edition", imageUrl: "Images//bugatti veyron super sports Mansory Edition.png", category: "Car", price: 900000, favorit: false },
+    { id: 12, title: "10 Car Garage", imageUrl: "Images//garage.webp", category: "Bulid", price: 75000, favorit: false }
 ];
 
 // Functions
