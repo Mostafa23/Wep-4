@@ -143,13 +143,12 @@ function changeHeart(itemId) {
 
     let item = products.find(product => product.id === itemId);
     if (item) {
-        item.favorit = !item.favorit; 
-        console.log(item)
+        item.favorit = !item.favorit;
 
         let favorites = products.filter(p => p.favorit);
         localStorage.setItem('Favorites', JSON.stringify(favorites));
 
-        drawFilteredItems(products);
+        updateFilteredProducts();
     }
 }
 
